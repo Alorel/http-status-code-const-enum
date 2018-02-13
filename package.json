@@ -1,6 +1,6 @@
 {
   "name": "http-status-code-const-enum",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic const enum declaration for HTTP status codes",
   "main": "index.js",
   "scripts": {

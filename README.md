@@ -1,6 +1,6 @@
 Say no to typos.
 
-`npm install -d xxx`
+`npm install -d http-status-code-const-enum`
 
 Basic usage:
 
