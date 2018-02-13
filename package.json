@@ -1,0 +1,32 @@
+{
+  "name": "http-status-code-const-enum",
+  "version": "1.0.0",
+  "description": "Basic const enum declaration for HTTP status codes",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo it passes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alorel/http-status-code-const-enum.git"
+  },
+  "keywords": [
+    "typescript",
+    "const",
+    "enum",
+    "http",
+    "status",
+    "code"
+  ],
+  "author": {
+    "name": "Arturas Molcanovas",
+    "email": "a.molcanovas@gmail.com",
+    "url": "https://github.com/Alorel"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alorel/http-status-code-const-enum/issues"
+  },
+  "homepage": "https://github.com/Alorel/http-status-code-const-enum"
+}
