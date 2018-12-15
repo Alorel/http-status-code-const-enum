@@ -83,7 +83,7 @@ export declare const enum HttpStatusCode {
   /** The client has asked for a portion of the file (byte serving), but the server cannot supply that portion. For example, if the client asked for a part of the file that lies beyond the end of the file. Called "Requested Range Not Satisfiable" previously. */
   RANGE_NOT_SATISFIABLE = 416,
   /** The server cannot meet the requirements of the Expect request-header field. */
-  EXPECTATION_FALED = 417,
+  EXPECTATION_FAILED = 417,
   /** This code was defined in 1998 as one of the traditional IETF April Fools' jokes, in RFC 2324, Hyper Text Coffee Pot Control Protocol, and is not expected to be implemented by actual HTTP servers. The RFC specifies this code should be returned by teapots requested to brew coffee. This HTTP status is used as an Easter egg in some websites, including Google.com. */
   IM_A_TEAPOT = 418,
   /** The request was directed at a server that is not able to produce a response. (for example because of a connection reuse) */
@@ -93,7 +93,7 @@ export declare const enum HttpStatusCode {
   /** The resource that is being accessed is locked. */
   LOCKED = 423,
   /** The request failed because it depended on another request and that request failed (e.g., a PROPPATCH). */
-  FALED_DEPENDENCY = 424,
+  FAILED_DEPENDENCY = 424,
   /** The client should switch to a different protocol such as TLS/1.0, given in the Upgrade header field. */
   UPGRADE_REQUIRED = 426,
   /** The origin server requires the request to be conditional. Intended to prevent the 'lost update' problem, where a client GETs a resource's state, modifies it, and PUTs it back to the server, when meanwhile a third party has modified the state on the server, leading to a conflict." */
@@ -103,7 +103,7 @@ export declare const enum HttpStatusCode {
   /** The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large. */
   REQUEST_HEADER_FIELDS_TOO_LARGE = 431,
   /** A server operator has received a legal demand to deny access to a resource or to a set of resources that includes the requested resource. The code 451 was chosen as a reference to the novel Fahrenheit 451 (see the Acknowledgements in the RFC). */
-  UNAVALABLE_FOR_LEGAL_REASONS = 451,
+  UNAVAILABLE_FOR_LEGAL_REASONS = 451,
   /** A generic error message, given when an unexpected condition was encountered and no more specific message is suitable. */
   INTERNAL_SERVER_ERROR = 500,
   /** The server either does not recognize the request method, or it lacks the ability to fulfil the request. Usually this implies future availability (e.g., a new feature of a web-service API). */
